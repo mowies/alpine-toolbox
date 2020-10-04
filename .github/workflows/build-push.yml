@@ -2,7 +2,7 @@ name: push
 on:
   push:
     branches:
-      - 'main'
+      - 'github-actions'
   schedule:
     - cron: '0 0 */1 * *'
 
